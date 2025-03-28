@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("/src/never-give-up-4l-ultra-hd-motivational-u9sfxknurcww4xq0.jpg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.container {
+  width: 40%;
+  margin: auto;
+  background: white;
+  background: rgba(255, 255, 255, 0.79); /* Semi-transparent white */
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.todo-input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-input input, .todo-input select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-input button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.todo-input button:hover {
+  background-color: #218838;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-item input {
+  margin-right: 10px;
+}
+
+.todo-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.todo-item button:hover {
+  background-color: darkred;
+}
