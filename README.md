@@ -3,4 +3,4 @@
 
 + run front-end and backend using "npm start"
 
-by salvin
+by salvin s6 bca b
